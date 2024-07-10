@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor {
+    animation: cursorBlink 1s infinite;
+}
+
+.indicator {
+    animation: indicatorBlink 3s infinite ease-in-out;
+}
+
+.playing {
+    animation: playing 5s linear infinite;
+}
+
+.gear {
+    animation: gearAnimation 5s infinite;
+}
+
+.mask {
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(to bottom left, black, transparent);
+}
+
+.textShadow {
+    text-shadow: -5px 5px 5px black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#LandingPage,
+button,
+a {
+    cursor: none;
+}
+
+.clickedCursor {
+    transform-origin: right bottom;
+    animation: clickedCursorAnimation 1s ease-in-out infinite;
+}
+
+@keyframes cursorBlink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes indicatorBlink {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+}
+
+@keyframes playing {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes gearAnimation {
+    0%,
+    100% {
+        transform: translateX(-100%) rotate(0);
+        animation-timing-function: ease-in-out;
+    }
+
+    50% {
+        transform: translateX(100%) rotate(360deg);
+        animation-timing-function: ease-in-out;
+    }
+}
+@keyframes clickedCursorAnimation {
+    0%,
+    50%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25%,
+    75% {
+        transform: rotate(30deg);
+    }
+}
