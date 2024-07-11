@@ -46,11 +46,6 @@ const Cursor = ({ cursor }) => {
         setCursorType(cursor);
     }, [cursor]);
 
-    //to get last cursor type for debugging
-    useEffect(() => {
-        console.log(cursorType);
-    }, [cursorType]);
-
     return (
         <div>
             {cursorType === "pointer" && (
@@ -72,9 +67,9 @@ const Cursor = ({ cursor }) => {
                             <g
                                 id="General"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
-                                fill-rule="evenodd">
+                                fillRule="evenodd">
                                 <g
                                     id="SLICES-64px"
                                     transform="translate(-810.000000, -400.000000)"></g>
@@ -97,7 +92,7 @@ const Cursor = ({ cursor }) => {
                                         {/* inner shade */}
                                         <polygon
                                             id="Fill-575"
-                                            fill-opacity="0.5"
+                                            fillOpacity="0.5"
                                             fill="#6C6984"
                                             points="40 12 34 18 2 50 4 52 36 20 42 14"></polygon>
 
@@ -105,9 +100,9 @@ const Cursor = ({ cursor }) => {
                                         <polygon
                                             id="Stroke-576"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                             points="4 52 0 48 38 10 42 14"></polygon>
 
                                         {/* tip bode seperator */}
@@ -115,89 +110,89 @@ const Cursor = ({ cursor }) => {
                                             d="M34,22 L30,18"
                                             id="Stroke-577"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 1st strike */}
                                         <path
                                             d="M38,24 L38,28"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 2nd strike */}
                                         <path
                                             d="M43,22.6602 L45,26.1252"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 3rd strike */}
                                         <path
                                             d="M46.6602,19 L50.1252,21"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 4th strike */}
                                         <path
                                             d="M48,14 L52,14"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 5th strike */}
                                         <path
                                             d="M46.6602,9 L50.1252,7"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 6th strike */}
                                         <path
                                             d="M43,5.3398 L45,1.8748"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 7th strike */}
                                         <path
                                             d="M38,4 L38,0"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 8th strike */}
                                         <path
                                             d="M33,5.3398 L31,1.8748"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 9th strike */}
                                         <path
                                             d="M29.3398,9 L25.8748,7"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 10th strine */}
                                         <path
                                             d="M28,14 L24,14"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
                                     </g>
                                 </g>
                             </g>
@@ -225,9 +220,9 @@ const Cursor = ({ cursor }) => {
                             <g
                                 id="General"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
-                                fill-rule="evenodd">
+                                fillRule="evenodd">
                                 <g
                                     id="SLICES-64px"
                                     transform="translate(-810.000000, -400.000000)"></g>
@@ -250,7 +245,7 @@ const Cursor = ({ cursor }) => {
                                         {/* inner shade */}
                                         <polygon
                                             id="Fill-575"
-                                            fill-opacity="0.5"
+                                            fillOpacity="0.5"
                                             fill="#000"
                                             points="40 12 34 18 2 50 4 52 36 20 42 14"></polygon>
 
@@ -258,9 +253,9 @@ const Cursor = ({ cursor }) => {
                                         <polygon
                                             id="Stroke-576"
                                             stroke="#3f3d00"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                             points="4 52 0 48 38 10 42 14"></polygon>
 
                                         {/* tip bode seperator */}
@@ -268,89 +263,89 @@ const Cursor = ({ cursor }) => {
                                             d="M34,22 L30,18"
                                             id="Stroke-577"
                                             stroke="#3f3d4c"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 1st strike */}
                                         <path
                                             d="M38,24 L38,28"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 2nd strike */}
                                         <path
                                             d="M43,22.6602 L45,26.1252"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 3rd strike */}
                                         <path
                                             d="M46.6602,19 L50.1252,21"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 4th strike */}
                                         <path
                                             d="M48,14 L52,14"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 5th strike */}
                                         <path
                                             d="M46.6602,9 L50.1252,7"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 6th strike */}
                                         <path
                                             d="M43,5.3398 L45,1.8748"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 7th strike */}
                                         <path
                                             d="M38,4 L38,0"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 8th strike */}
                                         <path
                                             d="M33,5.3398 L31,1.8748"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 9th strike */}
                                         <path
                                             d="M29.3398,9 L25.8748,7"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 10th strine */}
                                         <path
                                             d="M28,14 L24,14"
                                             stroke="#000000"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
                                     </g>
                                 </g>
                             </g>
@@ -379,9 +374,9 @@ const Cursor = ({ cursor }) => {
                             <g
                                 id="General"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
-                                fill-rule="evenodd">
+                                fillRule="evenodd">
                                 <g
                                     id="SLICES-64px"
                                     transform="translate(-810.000000, -400.000000)"></g>
@@ -404,7 +399,7 @@ const Cursor = ({ cursor }) => {
                                         {/* inner shade */}
                                         <polygon
                                             id="Fill-575"
-                                            fill-opacity="0.5"
+                                            fillOpacity="0.5"
                                             fill="#6C6984"
                                             points="40 12 34 18 2 50 4 52 36 20 42 14"></polygon>
 
@@ -412,9 +407,9 @@ const Cursor = ({ cursor }) => {
                                         <polygon
                                             id="Stroke-576"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                             points="4 52 0 48 38 10 42 14"></polygon>
 
                                         {/* tip bode seperator */}
@@ -422,89 +417,89 @@ const Cursor = ({ cursor }) => {
                                             d="M34,22 L30,18"
                                             id="Stroke-577"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 1st strike */}
                                         <path
                                             d="M38,24 L38,28"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 2nd strike */}
                                         <path
                                             d="M43,22.6602 L45,26.1252"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 3rd strike */}
                                         <path
                                             d="M46.6602,19 L50.1252,21"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 4th strike */}
                                         <path
                                             d="M48,14 L52,14"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 5th strike */}
                                         <path
                                             d="M46.6602,9 L50.1252,7"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 6th strike */}
                                         <path
                                             d="M43,5.3398 L45,1.8748"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 7th strike */}
                                         <path
                                             d="M38,4 L38,0"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 8th strike */}
                                         <path
                                             d="M33,5.3398 L31,1.8748"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 9th strike */}
                                         <path
                                             d="M29.3398,9 L25.8748,7"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 10th strine */}
                                         <path
                                             d="M28,14 L24,14"
                                             stroke="#ffffff50"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
                                     </g>
                                 </g>
                             </g>
@@ -532,9 +527,9 @@ const Cursor = ({ cursor }) => {
                             <g
                                 id="General"
                                 stroke="none"
-                                stroke-width="1"
+                                strokeWidth="1"
                                 fill="none"
-                                fill-rule="evenodd">
+                                fillRule="evenodd">
                                 <g
                                     id="SLICES-64px"
                                     transform="translate(-810.000000, -400.000000)"></g>
@@ -557,7 +552,7 @@ const Cursor = ({ cursor }) => {
                                         {/* inner shade */}
                                         <polygon
                                             id="Fill-575"
-                                            fill-opacity="0.5"
+                                            fillOpacity="0.5"
                                             fill="#6C6984"
                                             points="40 12 34 18 2 50 4 52 36 20 42 14"></polygon>
 
@@ -565,9 +560,9 @@ const Cursor = ({ cursor }) => {
                                         <polygon
                                             id="Stroke-576"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
                                             points="4 52 0 48 38 10 42 14"></polygon>
 
                                         {/* tip bode seperator */}
@@ -575,89 +570,89 @@ const Cursor = ({ cursor }) => {
                                             d="M34,22 L30,18"
                                             id="Stroke-577"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 1st strike */}
                                         <path
                                             d="M38,24 L38,28"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 2nd strike */}
                                         <path
                                             d="M43,22.6602 L45,26.1252"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 3rd strike */}
                                         <path
                                             d="M46.6602,19 L50.1252,21"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 4th strike */}
                                         <path
                                             d="M48,14 L52,14"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 5th strike */}
                                         <path
                                             d="M46.6602,9 L50.1252,7"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 6th strike */}
                                         <path
                                             d="M43,5.3398 L45,1.8748"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 7th strike */}
                                         <path
                                             d="M38,4 L38,0"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 8th strike */}
                                         <path
                                             d="M33,5.3398 L31,1.8748"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 9th strike */}
                                         <path
                                             d="M29.3398,9 L25.8748,7"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
 
                                         {/* 10th strine */}
                                         <path
                                             d="M28,14 L24,14"
                                             stroke="#ffffff"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"></path>
                                     </g>
                                 </g>
                             </g>

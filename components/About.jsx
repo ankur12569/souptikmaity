@@ -171,7 +171,7 @@ const About = ({ welcomed, cursor, setCursor }) => {
             </div>
             <div
                 id="AboutContent"
-                className=" mt-10 text-left text-gray-100 w-3/4 mx-auto">
+                className=" mt-10 text-justify text-gray-100 w-3/4 mx-auto">
                 <div className="AboutContentParagraph mt-3">
                     The universe hums with a symphony of equations, a secret
                     song whispered in starlight and swirling galaxies. My ears,
